@@ -98,6 +98,71 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General Styles */
+
+html{
+  font-size: 16px;
+}
+
+body{
+  height: 3810px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.content-wrapper{
+  height: inherit;
+  width: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+a{
+  color: #55acce;
+  text-decoration: none;
+}
+
+p{
+  text-align: center;
+}
+
+h1, h2, h3, h4, p{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  line-height: auto;
+  color: #095256;
+}
+
+h1{
+  font-size: 3.75em;
+  color: #bdbf09;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+h3{
+  font-size: 2.25em;
+}
+h4{
+  font-size: 1.5em;
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +328,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
