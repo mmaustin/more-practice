@@ -152,7 +152,7 @@ h2{
 
 p{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 h3{
   font-size: 1.75em;
@@ -277,6 +277,10 @@ h2{
   width: auto;
 }
 
+.port-text {
+  width: 100%;
+}
+
 .pic {
   margin-top: 20px;
 }
@@ -291,6 +295,20 @@ figure {
 img {
   height: inherit;
   width: inherit;
+}
+
+.port-text h4, .p-one, .p-two {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+.port-text h4, .p-two {
+  margin-top: 15px;
 }
 
 /*.rogue {
