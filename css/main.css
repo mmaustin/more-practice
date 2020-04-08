@@ -311,6 +311,63 @@ img {
   margin-top: 15px;
 }
 
+.about{
+  height: 650px;
+  width: 100%;
+  background-color: #087e8b;
+}
+
+.about, .about-content-wrapper, .about h3,
+.about-wrapper, .description, .p-three, .p-four {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+
+.about-content-wrapper {
+  height: 100%;
+  width: 75%;
+}
+
+.about h3, .about p {
+  color: #ffffff;
+}
+
+.about h3 {
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.about-wrapper {
+  height: 550px;
+  width: 100%;
+}
+
+.description {
+  height: 265px;
+  width: 100%;
+}
+
+.p-three, .p-four {
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.p-three {
+  height: 30px;
+}
+
+.p-four {
+  height: 185px;
+}
+
 /*.rogue {
   background-image: url("https://images.unsplash.com/photo-1526818614391-390bc085968b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
 }*/
