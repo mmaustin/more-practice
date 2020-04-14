@@ -237,7 +237,7 @@ h2{
   height: 275px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-flow: row wrap;
 }
 
@@ -303,7 +303,7 @@ img {
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row;
 }
 
@@ -429,7 +429,7 @@ footer p {
   height: 70px;
   width: 50%;
   justify-content: space-around;
-  flex-flow: row;
+  flex-flow: wrap;
 }
 
 .social-icons i {
@@ -540,6 +540,38 @@ footer p {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media only screen and (min-width: 600px) {
+  body {
+    height: 3610px;
+  }
+
+  main {
+    height: 3150px;
+  }
+
+  header {
+    height: 600px;
+  }
+
+  .work {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: wrap;
+  }
+
+  .pic, .port-text {
+    width: 49%;
+  }
+
+  .pic, .port-text h4 {
+    margin: 0;
+  }
+
+  .port-text h4, .p-one, .p-two {
+    justify-content: flex-start;
+  }
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
