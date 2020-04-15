@@ -105,7 +105,7 @@ html{
 }
 
 body{
-  height: 3810px;
+  height: 3710px;
   font-size: 1em;
   font-family: 'Montserrat', sans-serif;
   display: flex;
@@ -162,7 +162,7 @@ h4{
 }
 
 main{
-  height: 3350px;
+  height: 3250px;
   width: 100%;
   margin: 0;
   display: flex;
@@ -278,6 +278,7 @@ h2{
 }
 
 .port-text {
+  border: 1px solid blue;
   width: 100%;
 }
 
@@ -304,7 +305,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-flow: row;
+  flex-flow: wrap;
 }
 
 .port-text h4, .p-two {
@@ -312,7 +313,7 @@ img {
 }
 
 .about{
-  height: 650px;
+  height: 550px;
   width: 100%;
   background-color: #087e8b;
 }
@@ -348,7 +349,7 @@ img {
 }
 
 .description {
-  height: 265px;
+  height: 165px;
   width: 100%;
 }
 
@@ -543,15 +544,19 @@ footer p {
 
 @media only screen and (min-width: 600px) {
   body {
-    height: 3610px;
+    height: 2810px;
   }
 
   main {
-    height: 3150px;
+    height: 2350px;
   }
 
   header {
     height: 600px;
+  }
+
+  .portfolio {
+    height: 1200px;
   }
 
   .work {
@@ -570,6 +575,36 @@ footer p {
 
   .port-text h4, .p-one, .p-two {
     justify-content: flex-start;
+  }
+
+  .about .pic {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 860px){
+  body {
+    height: 2660px;
+  }
+
+  footer {
+    height: 310px;
+  }
+
+  .foot {
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+  }
+
+  .hire, .follow, .meet {
+    height: 120px;
+    width: 33%;
+  }
+
+  .social-icons {
+    width: 100%;
   }
 }
 
