@@ -456,8 +456,27 @@ footer p {
 /* iFrame */
 
 .iframe {
-  background-color: gray;
-  height: 2000px;
+  height: 1000px;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: column;
+}
+
+.header-two {
+  border: 1px solid blue;
+  background-image: 0;
+  background-position: 0;
+  background-size:0;
+  height: 400px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 
 /* ==========================================================================
