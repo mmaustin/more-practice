@@ -453,7 +453,8 @@ footer p {
   color: #fff;
 }
 
-/* iFrame */
+/* -------iFrame------- */
+/* --This is not a properly styled or formatted section, just iframe practice--- */
 
 .iframe {
   height: 1000px;
@@ -477,6 +478,22 @@ footer p {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.map-section {
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  height: 320px;
+  width: 100%;
+  border: 1px solid black;
+}
+/* ---All of those styles don't seem to be necessary for a simple page. ----*/
+iframe {
+  border: 1px solid green;
 }
 
 /* ==========================================================================
