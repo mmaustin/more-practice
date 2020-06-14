@@ -279,7 +279,7 @@ h2{
 
 .port-text {
   border: 1px solid blue;
-  width: 100%;
+  width: auto;
 }
 
 .pic {
@@ -493,7 +493,7 @@ footer p {
 }
 /* ---All of those styles don't seem to be necessary for a simple page. ----*/
 iframe {
-  border: 1px solid green;
+  position: ;
 }
 
 /* ==========================================================================
